@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="INGRESAR INFORMACION"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIngresarInformacion" />
+    <EditText
+        android:hint="Nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombres"/>
+    <EditText
+        android:hint="Apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApellidos" />
+    <EditText
+        android:hint="Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdad" />
+    <EditText
+        android:hint="Sexo: Hombre o Mujer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType=""
+        android:id="@+id/txtSexo" />
+    <EditText
+        android:hint="Numero de documento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ txtNDocumento" />
+    <Button
+        android:text="GUARDAR DATOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIngresarInformacion"
+        android:onClick="BtnIngresarInformacion_Click"/>
+</LinearLayout>
